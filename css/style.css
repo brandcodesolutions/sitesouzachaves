@@ -110,6 +110,7 @@ body {
 	background-color: #ffffff;
 	-webkit-text-size-adjust: none;
 	-webkit-font-smoothing: subpixel-antialiased;
+	overflow-x: hidden;
 }
 
 @media (max-width: 767.98px) {
