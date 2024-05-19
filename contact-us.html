@@ -12,7 +12,16 @@
     <link rel="stylesheet" href="css/style.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
-  <body>
+
+  <style>
+    @media only screen and (max-width: 600px) {
+  body {
+    margin-top: 20px; /* Ajuste o valor conforme necessário */
+  }
+}
+
+  </style>
+  <body style="display: flex; justify-content: center; align-items: center;">
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <div class="preloader" id="loading">
       <div class="preloader-body">
@@ -24,7 +33,7 @@
         </div>
       </div>
     </div>
-    <div class="page">
+    <div class="page" >
       <!-- Page Header--><a class="banner banner-top" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank"><img src="images/intense_02.jpg" alt=""/></a>
       <header class="section page-header">
         <!-- RD Navbar-->
@@ -44,18 +53,18 @@
                 <ul class="rd-navbar-nav">
                   <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Home</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">About Us</a>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">Soluções</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Typography</a>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Sobre nós</a>
                   </li>
-                  <li class="rd-nav-item active"><a class="rd-nav-link" href="contact-us.html">Contact Us</a>
+                  <li class="rd-nav-item active"><a class="rd-nav-link" href="contact-us.html">Contate-nos</a>
                   </li>
                 </ul>
               </div>
-              <div class="rd-navbar-element"><a class="button button-sm button-header button-winona" href="#">Sign In</a>
+              <!--<div class="rd-navbar-element"><a class="button button-sm button-header button-winona" href="#">Sign In</a>
               </div>
               <div class="rd-navbar-dummy"></div>
-            </div>
+            </div>-->
           </nav>
         </div>
       </header>
@@ -64,7 +73,7 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-xl-9">
-                <h2 class="breadcrumbs-custom-title">Contact Us</h2>
+                <h2 class="breadcrumbs-custom-title">Contate-nos</h2>
               </div>
             </div>
           </div>
@@ -73,7 +82,7 @@
           <div class="container">
             <ul class="breadcrumbs-custom-path">
               <li><a href="index.html">Home</a></li>
-              <li class="active">Contact Us</li>
+              <li class="active">Contate-nos</li>
             </ul>
           </div>
         </div>
@@ -83,24 +92,24 @@
           <div class="row row-50">
             <div class="col-xl-5">
               <div class="inset-1">
-                <h2>Our Office</h2>
-                <p class="big">If you are living nearby, come visit Businet at one of our comfortable offices.</p>
+                <h2>Nosso Escritório</h2>
+                <p class="big">Se estiver nas proximidades, venha visitar nosso escritório.</p>
                 <div class="row row-50">
                   <div class="col-sm-6 col-xl-12">
-                    <p class="heading-7">office 1</p>
+                    <!--<p class="heading-7">office 1</p>-->
                     <ul class="list list-style-1">
                       <li class="unit"><span class="unit-left icon icon-sm text-accent mdi mdi-map-marker"></span>
-                        <div class="unit-body"><a href="#">9863 - 9867 Mill Road, Cambridge, MG09 99HT</a></div>
+                        <div class="unit-body"><a href="#">Av. Antonio Maia, 294, Marabá - PA</a></div>
                       </li>
                       <li class="unit"><span class="unit-left icon icon-sm text-accent mdi mdi-cellphone"></span>
-                        <div class="unit-body"><a href="tel:#">+1 800 603 6035</a></div>
+                        <div class="unit-body"><a href="tel:#">(99) 9.8444-2913</a></div>
                       </li>
                       <li class="unit"><span class="unit-left icon icon-sm text-accent mdi mdi-email-outline"></span>
-                        <div class="unit-body"><a class="text-accent" href="mailto:#">mail@demolink.org</a></div>
+                        <div class="unit-body"><a class="text-accent" href="mailto:#">info@cred.org</a></div>
                       </li>
                     </ul>
                   </div>
-                  <div class="col-sm-6 col-xl-12">
+                  <!--<div class="col-sm-6 col-xl-12">
                     <p class="heading-7">Office 2</p>
                     <ul class="list list-style-1">
                       <li class="unit"><span class="unit-left icon icon-sm text-accent mdi mdi-map-marker"></span>
@@ -128,13 +137,13 @@
           </div>
         </div>
       </section>
-      <!-- Get in Touch-->
+       Get in Touch
       <section class="section section-md bg-gray-100">
         <div class="container">
           <h3 class="text-center">Get in Touch</h3>
           <div class="row justify-content-center">
             <div class="col-lg-11 col-xl-9">
-              <!-- RD Mailform-->
+               RD Mailform
               <form class="rd-mailform rd-form" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
                 <div class="row row-x-16 row-20">
                   <div class="col-md-6">
@@ -171,42 +180,42 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
       <!-- Page Footer-->
       <footer class="section footer-classic"><a class="banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank"><img src="images/intense_big_02.jpg" alt=""/></a>
         <div class="footer-classic-main">
           <div class="container">
             <div class="row row-50 justify-content-lg-between">
               <div class="col-sm-7 col-lg-3 col-xl-2"><a class="brand" href="index.html"><img src="images/logo-default-297x63.png" alt="" width="148" height="31"/></a>
-                <p><span style="max-width: 250px;">Since 1999, we have been helping American businesses thrive.</span></p><a class="button button-sm button-default-outline button-winona" href="#">Sign In</a>
+                <p><span style="max-width: 250px; background-color: ;">Desde 2014,  temos ajudado as pessoas a prosperar.</span></p><a class="button button-sm button-default-outline button-winona" href="#">Saiba mais</a>
               </div>
               <div class="col-sm-5 col-lg-3 col-xl-2">
-                <h4 class="footer-classic-title">Who We Are</h4>
+                <h4 class="footer-classic-title">Institucional</h4>
                 <ul class="list footer-classic-list">
-                  <li><a href="about-us.html">About Us</a></li>
-                  <li><a href="#">Careers</a></li>
-                  <li><a href="#">Our Team</a></li>
+                  <li><a href="about-us.html">Soluções</a></li>
+                  <li><a href="#">Sobre nós</a></li>
+                  <li><a href="#">Responsável</a></li>
                 </ul>
               </div>
-              <div class="col-sm-7 col-lg-5 col-xl-3">
-                <h4 class="footer-classic-title">Quick  Links</h4>
+              <!--<div class="col-sm-7 col-lg-5 col-xl-3">
+                <h4 class="footer-classic-title">Acesso rápido</h4>
                 <ul class="list footer-classic-list footer-classic-list_2-cols">
-                  <li><a href="#">Sign Up</a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">Our Partners</a></li>
-                  <li><a href="#">Pricing</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">FAQ</a></li>
-                  <li><a href="contact-us.html">Contacts</a></li>
+                  <li><a href="#">Saiba mais</a></li>
+                  <li><a href="#">Notícias</a></li>
+                  <li><a href="#">Clientes</a></li>
+                  <li><a href="#">Preços</a></li>
+                  <li><a href="#">Serviços</a></li>
+                  <li><a href="#">Dúvidas principais</a></li>
+                  <li><a href="contact-us.html">Contatos</a></li>
                 </ul>
-              </div>
+              </div>-->
               <div class="col-sm-5 col-lg-9 col-xl-2">
-                <h4 class="footer-classic-title">Get in Touch</h4>
+                <h4 class="footer-classic-title">Entrar em contato</h4>
                 <div class="row row-20 row-sm-35">
                   <div class="col-6 col-sm-12 col-lg-8 col-xl-12">
                     <div class="row row-10 text-default">
-                      <div class="col-lg-6 col-xl-12"><a href="mailto:#">info@demolink.org</a></div>
-                      <div class="col-lg-6 col-xl-12"><a class="big" href="tel:#">+1-853-234-65</a></div>
+                      <div class="col-lg-6 col-xl-12"><a href="mailto:#">info@cred.org</a></div>
+                      <div class="col-lg-6 col-xl-12"><a class="big" href="tel:#">(99) 9.8444-2913)</a></div>
                     </div>
                   </div>
                   <div class="col-6 col-sm-12 col-lg-4 col-xl-12 text-right text-sm-left">
@@ -219,7 +228,7 @@
         </div>
         <div class="footer-classic-aside">
           <div class="container">
-            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Businet</span>. All Rights Reserved. Design by <a href="https://www.templatemonster.com">TemplateMonster</a></p>
+            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span></span>. Todos os direitos reservados. Criado por <a href="https://www.instagram.com/brandcodesolutions?igsh=MXJxcXA1aGhzMmNqNw==">BrandCode Solutions</a></p>
           </div>
         </div>
       </footer>

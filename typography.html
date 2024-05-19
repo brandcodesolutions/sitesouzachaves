@@ -12,7 +12,16 @@
     <link rel="stylesheet" href="css/style.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
-  <body>
+
+  <style>
+    @media only screen and (max-width: 600px) {
+  body {
+    margin-top: 20px; /* Ajuste o valor conforme necessário */
+  }
+}
+
+  </style>
+  <body style="padding-left:10px ;" >
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <div class="preloader" id="loading">
       <div class="preloader-body">
@@ -44,18 +53,18 @@
                 <ul class="rd-navbar-nav">
                   <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Home</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">About Us</a>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">Soluções</a>
                   </li>
-                  <li class="rd-nav-item active"><a class="rd-nav-link" href="typography.html">Typography</a>
+                  <li class="rd-nav-item active"><a class="rd-nav-link" href="typography.html">Sobre nós</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.html">Contact Us</a>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.html">Contate-nos</a>
                   </li>
                 </ul>
               </div>
-              <div class="rd-navbar-element"><a class="button button-sm button-header button-winona" href="#">Sign In</a>
+              <!--<div class="rd-navbar-element"><a class="button button-sm button-header button-winona" href="#">Sign In</a>
               </div>
               <div class="rd-navbar-dummy"></div>
-            </div>
+            </div>-->
           </nav>
         </div>
       </header>
@@ -64,7 +73,7 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-xl-9">
-                <h2 class="breadcrumbs-custom-title">Typography</h2>
+                <h2 class="breadcrumbs-custom-title">Somos a Solução que Você Procura</h2>
               </div>
             </div>
           </div>
@@ -73,76 +82,56 @@
           <div class="container">
             <ul class="breadcrumbs-custom-path">
               <li><a href="index.html">Home</a></li>
-              <li class="active">Typography</li>
+              <li class="active">Sobre nós</li>
             </ul>
           </div>
         </div>
       </section>
-      <!-- Base typography-->
-      <section class="section section-lg">
-        <div class="container">
-          <div class="row row-50 flex-lg-row-reverse">
-            <div class="col-lg-3 col-xl-4">
-              <div class="row row-35 row-lg-50">
-                <div class="col-sm-6 col-lg-12">
-                  <article class="box-bordered">
-                    <h5>Google Fonts</h5>
-                    <h2 class="font-weight-bold">Muli</h2>
-                    <h4>Open Sans</h4>
-                  </article>
-                </div>
-                <div class="col-sm-6 col-lg-12">
-                  <article class="box-bordered">
-                    <h5>Used colors</h5>
-                    <ul class="list-palette">
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                    </ul>
-                  </article>
-                </div>
+
+      <style>   
+    
+    @media only screen and (max-width: 600px) {
+  .edit {
+    margin-top: -600px !important; /* Ajuste o valor conforme necessário */
+  }
+}
+
+      </style>
               </div>
             </div>
-            <div class="col-lg-9 col-xl-8">
+            <div class="edit" class="col-lg-9 col-xl-8">
               <ul class="list-xl">
                 <li>
-                  <h1>H1 Heading</h1>
-                  <p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
+                  <h1>Missão, Visão & Valores.</h1>
+                  <p>Conheça um pouco sobre o nosso compromisso com você, nosso cliente, ao qual nos dedicamos incansavelmente. Estamos empenhados em garantir sua satisfação plena, buscando sempre superar suas expectativas e oferecer a melhor experiência possível.</p>
                 </li>
                 <li>
-                  <h2>H2 Heading</h2>
-                  <p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
+                  <h3>Missão</h3>
+                  <p>Nossa Missão é desenvolver e fornecer soluções com um compromisso sólido com a sociedade, priorizando qualidade, eficiência e o sucesso e satisfação de clientes, colaboradores e parceiros.</p>
                 </li>
                 <li>
-                  <h3>H3 Heading</h3>
-                  <p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
+                  <h3>Visão</h3>
+                  <p>Quanto à Nossa Visão, almejamos ser uma das empresas líderes em nosso segmento, oferecendo soluções que se destacam pelo mais alto padrão ético, proporcionando valor agregado a um custo adequado.</p>
                 </li>
                 <li>
-                  <h4>H4 Heading</h4>
-                  <p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
+                  <h3>Valores</h3>
+                  <p>Já em relação aos Nossos Valores, baseamo-nos na ética, legalidade e imparcialidade em todas as nossas ações, sempre buscando a qualidade para enriquecer a gestão de forma significativa.</p>
                 </li>
                 <li>
-                  <h5>H5 Heading</h5>
-                  <p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
-                </li>
-                <li>
-                  <h6>H6 Heading</h6>
-                  <p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
+                  </p>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <!-- HTML Text Elements-->
+        <!-- HTML Text Elements
         <div class="container">
           <h3>HTML Text Elements</h3>
           <p class="text-block"><span class="font-weight-bold">Bold text</span>
             <mark>This is a highlighted text</mark><span class="text-strike">This is a strickethrough text</span><span class="text-underline">This is an underlined text.</span><span>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for</span><a href="#">Link</a><a class="link-hover" href="#">Hover link</a><a class="link-active" href="#">Press link</a><span>With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</span><span class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="Default text">Tooltip</span>
           </p>
-        </div>
-        <!-- Ordered & unOrdered List-->
+        </div>-->
+        <!-- Ordered & unOrdered List
         <div class="container">
           <h3>Ordered & Unordered Lists</h3>
           <div class="row row-50">
@@ -166,12 +155,12 @@
             </div>
           </div>
         </div>
-        <!-- Blockquote-->
+        Blockquote
         <div class="container">
           <h3>Blockquote</h3>
           <div class="row row-50">
             <div class="col-lg-9 col-xl-7">
-              <!-- Quote Light-->
+              Quote Light
               <blockquote class="quote-light">
                 <div class="quote-light-mark linearicons-quote-open"></div>
                 <div class="quote-light-text">
@@ -181,42 +170,42 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
       <!-- Page Footer-->
       <footer class="section footer-classic"><a class="banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank"><img src="images/intense_big_02.jpg" alt=""/></a>
         <div class="footer-classic-main">
           <div class="container">
             <div class="row row-50 justify-content-lg-between">
               <div class="col-sm-7 col-lg-3 col-xl-2"><a class="brand" href="index.html"><img src="images/logo-default-297x63.png" alt="" width="148" height="31"/></a>
-                <p><span style="max-width: 250px;">Since 1999, we have been helping American businesses thrive.</span></p><a class="button button-sm button-default-outline button-winona" href="#">Sign In</a>
+                <p><span style="max-width: 250px; background-color: ;">Desde 2014,  temos ajudado as pessoas a prosperar.</span></p><a class="button button-sm button-default-outline button-winona" href="#">Saiba mais</a>
               </div>
               <div class="col-sm-5 col-lg-3 col-xl-2">
-                <h4 class="footer-classic-title">Who We Are</h4>
+                <h4 class="footer-classic-title">Institucional</h4>
                 <ul class="list footer-classic-list">
-                  <li><a href="about-us.html">About Us</a></li>
-                  <li><a href="#">Careers</a></li>
-                  <li><a href="#">Our Team</a></li>
+                  <li><a href="about-us.html">Soluções</a></li>
+                  <li><a href="#">Sobre nós</a></li>
+                  <li><a href="#">Responsável</a></li>
                 </ul>
               </div>
-              <div class="col-sm-7 col-lg-5 col-xl-3">
-                <h4 class="footer-classic-title">Quick  Links</h4>
+              <!--<div class="col-sm-7 col-lg-5 col-xl-3">
+                <h4 class="footer-classic-title">Acesso rápido</h4>
                 <ul class="list footer-classic-list footer-classic-list_2-cols">
-                  <li><a href="#">Sign Up</a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">Our Partners</a></li>
-                  <li><a href="#">Pricing</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">FAQ</a></li>
-                  <li><a href="contact-us.html">Contacts</a></li>
+                  <li><a href="#">Saiba mais</a></li>
+                  <li><a href="#">Notícias</a></li>
+                  <li><a href="#">Clientes</a></li>
+                  <li><a href="#">Preços</a></li>
+                  <li><a href="#">Serviços</a></li>
+                  <li><a href="#">Dúvidas principais</a></li>
+                  <li><a href="contact-us.html">Contatos</a></li>
                 </ul>
-              </div>
+              </div>-->
               <div class="col-sm-5 col-lg-9 col-xl-2">
-                <h4 class="footer-classic-title">Get in Touch</h4>
+                <h4 class="footer-classic-title">Entrar em contato</h4>
                 <div class="row row-20 row-sm-35">
                   <div class="col-6 col-sm-12 col-lg-8 col-xl-12">
                     <div class="row row-10 text-default">
-                      <div class="col-lg-6 col-xl-12"><a href="mailto:#">info@demolink.org</a></div>
-                      <div class="col-lg-6 col-xl-12"><a class="big" href="tel:#">+1-853-234-65</a></div>
+                      <div class="col-lg-6 col-xl-12"><a href="mailto:#">info@cred.org</a></div>
+                      <div class="col-lg-6 col-xl-12"><a class="big" href="tel:#">(99) 9.8444-2913)</a></div>
                     </div>
                   </div>
                   <div class="col-6 col-sm-12 col-lg-4 col-xl-12 text-right text-sm-left">
@@ -229,7 +218,7 @@
         </div>
         <div class="footer-classic-aside">
           <div class="container">
-            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Businet</span>. All Rights Reserved. Design by <a href="https://www.templatemonster.com">TemplateMonster</a></p>
+            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span></span>. Todos os direitos reservados. Criado por <a href="https://www.instagram.com/brandcodesolutions?igsh=MXJxcXA1aGhzMmNqNw==">BrandCode Solutions</a></p>
           </div>
         </div>
       </footer>
