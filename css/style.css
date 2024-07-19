@@ -922,11 +922,11 @@ a[href*='tel'], a[href*='mailto'] {
 .link-modern .icon {
 	order: 10;
 	margin-left: 7px;
-	color: #ff6f80;
+	color: #006737;
 }
 
 .link-modern:hover {
-	color: #ff6f80;
+	color: #006737;
 }
 
 .icon.link-waypoint-icon {
@@ -1806,7 +1806,7 @@ div.box-custom-5-main {
 	z-index: 2;
 	right: 0;
 	font-size: inherit;
-	color: #3375ec;
+	color: #006737;
 	opacity: .7;
 }
 
